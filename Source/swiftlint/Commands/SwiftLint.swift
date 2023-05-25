@@ -23,6 +23,7 @@ struct SwiftLint: AsyncParsableCommand {
                 Analyze.self,
                 Docs.self,
                 GenerateDocs.self,
+                GenerateConfiguration.self,
                 Lint.self,
                 Reporters.self,
                 Rules.self,
